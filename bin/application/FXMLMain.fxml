@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane fx:id="firstPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="900.0" styleClass="bodybg" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <center>
+      <VBox id="button1" alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="25.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button id="button1" mnemonicParsing="false" onAction="#demoSequential" prefHeight="40.0" prefWidth="200.0" text="Sequential Searching Demo" textAlignment="CENTER" />
+            <Button mnemonicParsing="false" onAction="#demoBinary" prefHeight="40.0" prefWidth="200.0" text="Binary Searching Demo" />
+            <Button mnemonicParsing="false" onAction="#demoAStar" prefHeight="40.0" prefWidth="200.0" text="A Star Algorithm Demo" />
+            <Button mnemonicParsing="false" onAction="#exit" prefHeight="40.0" prefWidth="200.0" text="Exit" />
+         </children>
+      </VBox>
+   </center>
+</BorderPane>
